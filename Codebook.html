@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>Codebook for understanding the data set variables</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<h2>Codebook for understanding the data set variables</h2>
+
+<h3>Feature Names</h3>
+
+<p>The following are the feature names used</p>
+
+<p>1 tBodyAccMeanX - Mean of time domain signal for BodyAcc on X Axis</p>
+
+<p>2 tBodyAccMeanY - Mean of time domain signal for BodyAcc on Y Axis</p>
+
+<p>3 tBodyAccMeanZ - Mean of time domain signal for BodyAcc on Z Axis</p>
+
+<p>4 tBodyAccStdX - Std dev of time domain signal for BodyAcc on X Axis</p>
+
+<p>5 tBodyAccStdY - Std dev of time domain signal for BodyAcc on Y Axis</p>
+
+<p>6 tBodyAccStdZ - Std dev of time domain signal for BodyAcc on Z Axis</p>
+
+<p>7 tGravityAccMeanX - Mean of time domain signal for GravityAcc on X Axis</p>
+
+<p>8 tGravityAccMeanY - Mean of time domain signal for GravityAcc on Y Axis</p>
+
+<p>9 tGravityAccMeanZ - Mean of time domain signal for GravityAcc on Z Axis</p>
+
+<p>10 tGravityAccStdX - Std Dev of time domain signal for GravityAcc on X Axis</p>
+
+<p>11 tGravityAccStdY - Std Dev of time domain signal for GravityAcc on Y Axis</p>
+
+<p>12 tGravityAccStdZ - Std Dev of time domain signal for GravityAcc on Z Axis</p>
+
+<p>13 tBodyAccJerkMeanX - Mean of time domain signal for BodyAccJerk on X Axis</p>
+
+<p>14 tBodyAccJerkMeanY - Mean of time domain signal for BodyAccJerk on Y Axis</p>
+
+<p>15 tBodyAccJerkMeanZ - Mean of time domain signal for BodyAccJerk on Z Axis</p>
+
+<p>16 tBodyAccJerkStdX - Std Dev of time domain signal for BodyAccJerk on X Axis</p>
+
+<p>17 tBodyAccJerkStdY - Std Dev of time domain signal for BodyAccJerk on Y Axis</p>
+
+<p>18 tBodyAccJerkStdZ - Std Dev of time domain signal for BodyAccJerk on Z Axis</p>
+
+<p>19 tBodyGyroMeanX - Mean of time domain signal for BodyGyro on X Axis</p>
+
+<p>20 tBodyGyroMeanY - Mean of time domain signal for BodyGyro on Y Axis</p>
+
+<p>21 tBodyGyroMeanZ - Mean of time domain signal for BodyGyro on Z Axis</p>
+
+<p>22 tBodyGyroStdX - Std Dev of time domain signal for BodyGyro on X Axis</p>
+
+<p>23 tBodyGyroStdY - Std Dev of time domain signal for BodyGyro on Y Axis</p>
+
+<p>24 tBodyGyroStdZ - Std Dev of time domain signal for BodyGyro on Z Axis</p>
+
+<p>25 tBodyGyroJerkMeanX - Mean of time domain signal for BodyGyroJerk on X Axis</p>
+
+<p>26 tBodyGyroJerkMeanY - Mean of time domain signal for BodyGyroJerk on Y Axis</p>
+
+<p>27 tBodyGyroJerkMeanZ - Mean of time domain signal for BodyGyroJerk on Z Axis</p>
+
+<p>28 tBodyGyroJerkStdX - Std dev of time domain signal for BodyGyroJerk on X Axis</p>
+
+<p>29 tBodyGyroJerkStdY - Std dev of time domain signal for BodyGyroJerk on Y Axis</p>
+
+<p>30 tBodyGyroJerkStdZ - Std dev of time domain signal for BodyGyroJerk on Z Axis</p>
+
+<p>31 tBodyAccMagMean - Mean of time doman signal for BodyAccMag</p>
+
+<p>32 tBodyAccMagStd - Std Dev of time domain signal for BodyAccMag</p>
+
+<p>33 tGravityAccMagMean - Mean of time doman signal for GravtyAccMag</p>
+
+<p>34 tGravityAccMagStd - Std Dev of time doman signal for GravityAccMag</p>
+
+<p>35 tBodyAccJerkMagMean - Mean of time doman signal for BodyAccjerkMag</p>
+
+<p>36 tBodyAccJerkMagStd - Std Dev of time doman signal for BodyAccjerkMag</p>
+
+<p>37 tBodyGyroMagMean - Mean of time doman signal for BodyGyroMag</p>
+
+<p>38 tBodyGyroMagStd - Std Dev of time doman signal for BodyGyroMag</p>
+
+<p>39 tBodyGyroJerkMagStd - Mean of time doman signal for BodyGyroJerkMag</p>
+
+<p>40 tBodyGyroJerkMagmad - Mean of time doman signal for BodyGyroJerkMagmad</p>
+
+<p>41 fBodyAccMeanX - Mean of frequency domain signal for BodyAcc on X Axis</p>
+
+<p>42 fBodyAccMeanY - Mean of frequency domain signal for BodyAcc on Y Axis</p>
+
+<p>43 fBodyAccMeanZ - Mean of frequency domain signal for BodyAcc on Z Axis</p>
+
+<p>44 fBodyAccStdX - Std Dev of frequency domain signal for BodyAcc on X Axis</p>
+
+<p>45 fBodyAccStdY - Std Dev of frequency domain signal for BodyAcc on Y Axis</p>
+
+<p>46 fBodyAccStdZ - Std Dev of frequency domain signal for BodyAcc on Z Axis</p>
+
+<p>47 fBodyAccMeanFreqX - Mean of frequency domain signal for BodyAccFreq on X Axis</p>
+
+<p>48 fBodyAccMeanFreqY - Mean of frequency domain signal for BodyAccFreq on Y Axis</p>
+
+<p>49 fBodyAccMeanFreqZ - Mean of frequency domain signal for BodyAccFreq on Z Axis</p>
+
+<p>50 fBodyAccJerkMeanX - Mean of frequency domain signal for BodyAccJerk on X Axis</p>
+
+<p>51 fBodyAccJerkMeanY - Mean of frequency domain signal for BodyAccJerk on Y Axis</p>
+
+<p>52 fBodyAccJerkMeanZ - Mean of frequency domain signal for BodyAccJerk on Z Axis</p>
+
+<p>53 fBodyAccJerkStdX - Std Dev of frequency domain signal for BodyAccJerk on X Axis</p>
+
+<p>54 fBodyAccJerkStdY - Std Dev of frequency domain signal for BodyAccJerk on Y Axis</p>
+
+<p>55 fBodyAccJerkStdZ - Std Dev of frequency domain signal for BodyAccJerk on Z Axis</p>
+
+<p>56 fBodyAccJerkMeanFreqX - Mean of frequency domain signal for BodyAccJerkFreq on X Axis</p>
+
+<p>57 fBodyAccJerkMeanFreqY - Mean of frequency domain signal for BodyAccJerkFreq on Y Axis</p>
+
+<p>58 fBodyAccJerkMeanFreqZ - Mean of frequency domain signal for BodyAccJerkFreq on Z Axis</p>
+
+<p>59 fBodyGyroMeanX - Mean of frequency domain signal for BodyGyro on X Axis</p>
+
+<p>60 fBodyGyroMeanY - Mean of frequency domain signal for BodyGyro on Y Axis</p>
+
+<p>61 fBodyGyroMeanZ - Mean of frequency domain signal for BodyGyro on Z Axis</p>
+
+<p>62 fBodyGyroStdX - Std Dev of frequency domain signal for BodyGyro on X Axis</p>
+
+<p>63 fBodyGyroStdY - Std Dev of frequency domain signal for BodyGyro on Y Axis</p>
+
+<p>64 fBodyGyroStdZ - Std Dev of frequency domain signal for BodyGyro on Z Axis</p>
+
+<p>65 fBodyGyroMeanFreqX - Mean of frequency domain signal for BodyGyroFreq on X Axis</p>
+
+<p>66 fBodyGyroMeanFreqX - Mean of frequency domain signal for BodyGyroFreq on Y Axis</p>
+
+<p>67 fBodyGyroMeanFreqZ - Mean of frequency domain signal for BodyGyroFreq on Z Axis</p>
+
+<p>68 fBodyAccMagMean - Mean of frequency domain signal for BodyAccMag</p>
+
+<p>69 fBodyAccMagStd - Std Dev of frequency domain signal for BodyAccMag</p>
+
+<p>70 fBodyAccMagMeanFreq - Mean of frequency domain signal for BodyAccMagFreq</p>
+
+<p>71 fBodyBodyAccJerkMagMean - Mean of frequency domain signal for BodyAccJerkMag</p>
+
+<p>72 fBodyBodyAccJerkMagMeanFreq - Mean of frequency domain signal for BodyAccJerkMagFreq</p>
+
+<p>73 fBodyBodyGyroMagMean - Mean of frequency domain signal for BodyGyroMag</p>
+
+<p>74 fBodyBodyGyroMagMeanFreq - Mean of frequency domain signal for BodyGyroMagFreq</p>
+
+<p>75 fBodyBodyGyroJerkMagMean - Mean of frequency domain signal for BodyGyroJerkMag</p>
+
+<p>76 fBodyBodyGyroJerkMagMeanFreq - Mean of frequency domain signal for BodyGyroJerkMagFreq</p>
+
+<p>77 angletBodyAccMeanGravity - Mean BodyAccGravity measured in angle()</p>
+
+<p>78 angletBodyAccJerkMeanGravityMean - Mean BodyAccJerkGravity measured in angle()</p>
+
+<p>79 angletBodyGyroMeanGravityMean - Mean BodyAccGyroGravity measured in angle()</p>
+
+<p>80 angletBodyGyroJerkMeanGravityMean - Mean BodyGyroJerkGravity measured in angle()</p>
+
+<p>81 angleXGravityMean - Mean Gravity measured in angle() for X axis</p>
+
+<p>82 angleYGravityMean - Mean Gravity measured in angle() for Y axis</p>
+
+<p>83 angleZGravityMean - Mean Gravity measured in angle() for Z axis</p>
+
+<h3>Variable names</h3>
+
+<p>The variable names are in the following format
+<Numeric> <Activity>
+The numeric indicates the person whose measurement is taken and the activity indicates the activity for which the measurement is taken.
+e.g. 1 WALKING indicate that the data is for Person 1 for activity - Walking</p>
+
+</body>
+
+</html>
+
